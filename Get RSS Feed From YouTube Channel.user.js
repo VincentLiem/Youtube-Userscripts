@@ -26,7 +26,6 @@
     const channelId = channelIdMatch ? channelIdMatch[1] : null;
 
     if (channelId) {
-        // Display the RSS feed URL for the channel in the console
         console.log(`RSS feed URL with Channel ID: https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`);
     } else {
         console.warn("No RSS feed with Channel ID found.");
